@@ -10,7 +10,7 @@ The problem has been formulated and solved according the following solution meth
  * Indirect method with finite difference approximation of the obtained BVP. The non linear system is solved using a number of numerical solvers written in Matlab code and PINS http://pins.github.io.
  * Direct Method: direct transcription (same finite difference approximation)  into a Non Linear Programming and solution using various optimiser: IPOPT, Matlab fmincon().
 
-In the future this repository will be extended in order to become a test suite for optimal control software with code publicly available and a large set of benchmark tests.
+In the future this repository will be extended in order to become a test suite for optimal control software with code publicly available and a large set of benchmark tests (possibly with analytical solution for method's accuracy evaluation).
 
 ## Instructions
 
@@ -20,6 +20,9 @@ The code can be downloaded and freely used as is.
 
 
 ## Contacts
+
 Francesco Biral (francesco.biral@unitn.it)
+
 Enrico Bertolazzi (enrico.bertolazzi@unitn.it)
+
 Paolo Bosetti (paolo.bosetti@unitn.it)
