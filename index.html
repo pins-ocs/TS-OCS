@@ -35,14 +35,35 @@
 <h2>
 <a id="intro" class="anchor" href="#intro" aria-hidden="true"><span class="octicon octicon-link"></span></a>Intro</h2>
 
+<p>The idea of this repository generates from the work done when writing the paper <em>"Notes on Numerical Methods for Solving Optimal Control Problems"</em> submitted to <em>IEEJ Journal of Industry Applications Special Issue,  Journal IA 2016/03(E) Special Issue on Motion Control and its Related Technologies</em> the 1st of June 2015.
+At present the available code compares three different solution methods for optimal control problem to one example. The selected example is a non linear optimal control problem, yet simple, can be numerically difficult depending on the choosen values of the problem's parameters. Under some conditions, the problem also has the analytical solution that can be used to evaluate the solution methods accuracy.<br>
+The problem has been formulated and solved according the following solution methods:</p>
+
+<ul>
+<li>Differential Dynamic Programming using the code freely available at <a href="http://www.idsc.ethz.ch/Downloads/DownloadFiles/dpm">http://www.idsc.ethz.ch/Downloads/DownloadFiles/dpm</a>
+</li>
+<li>Indirect method with finite difference approximation of the obtained BVP. The non linear system is solved using a number of numerical solvers written in Matlab code and PINS <a href="http://pins.github.io">http://pins.github.io</a>.</li>
+<li>Direct Method: direct transcription (same finite difference approximation)  into a Non Linear Programming and solution using various optimiser: IPOPT, Matlab fmincon().</li>
+</ul>
+
+<p>In the future this repository will be extended in order to become a test suite for optimal control software with code publicly available and a large set of benchmark tests (possibly with analytical solution for method's accuracy evaluation).</p>
+
 <h2>
 <a id="instructions" class="anchor" href="#instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instructions</h2>
+
+<p>The code can be downloaded and freely used as is. </p>
 
 <h2>
 <a id="how-to-cite" class="anchor" href="#how-to-cite" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to cite</h2>
 
 <h2>
 <a id="contacts" class="anchor" href="#contacts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contacts</h2>
+
+<p>Francesco Biral (<a href="mailto:francesco.biral@unitn.it">francesco.biral@unitn.it</a>)</p>
+
+<p>Enrico Bertolazzi (<a href="mailto:enrico.bertolazzi@unitn.it">enrico.bertolazzi@unitn.it</a>)</p>
+
+<p>Paolo Bosetti (<a href="mailto:paolo.bosetti@unitn.it">paolo.bosetti@unitn.it</a>)</p>
       </section>
     </div>
     <footer>
